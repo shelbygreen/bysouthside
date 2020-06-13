@@ -3,6 +3,7 @@ h1 {
   font-size: 3rem;
   color: orangered;
   max-width: 1000px;
+  font-size: normal;
 }
 
 main {
