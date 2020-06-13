@@ -1,0 +1,17 @@
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 4rem;
+  font-style: italic;
+  color: orangered;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+a {
+  color: black;
+}
