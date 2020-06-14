@@ -3,8 +3,8 @@ $(function() {
 });
 
 function changer() {
-    var words = ["AFFORDABLE HOUSING","BUSES THAT SHOW UP ON TIME",
-    "MORE PARKS", "LIVABLE WAGES", "STOP POLICE BRUTALITY",
+    var words = ["AFFORDABLE HOUSING","BUSES TO SHOW UP ON TIME",
+    "MORE PARKS", "LIVABLE WAGES", "THE END OF POLICE BRUTALITY",
     "A BETTER TALLAHASSEE"];
     var idx = Math.floor(words.length * Math.random());
     $('#change').text(words[idx]);
