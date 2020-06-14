@@ -4,7 +4,7 @@ $(function() {
 
 function changer() {
     var words = ["AFFORDABLE HOUSING","BUSES THAT SHOW UP ON TIME",
-    "MORE PARKS", "LIVABLE WAGES", "COPS TO STOP KILLING US",
+    "MORE PARKS", "LIVABLE WAGES", "STOP POLICE BRUTALITY",
     "A BETTER TALLAHASSEE"];
     var idx = Math.floor(words.length * Math.random());
     $('#change').text(words[idx]);
