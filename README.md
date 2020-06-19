@@ -1,8 +1,9 @@
-# TLH Voting Resources Portal
+# bysouthside
 
-This repo houses code for Tallahassee's [Voting Resources Platform](https://wip.com/), built for and by Southside residents.
+This repo houses code for [bysouthside](https://wip.com/), a collective leveraging tech and design to advance civic endeavors in southside tallahassee.
 
 ## Built with
-* [mapboxGL](https://www.mapbox.com/mapbox-gl-js/api/)
-* [python](https://esri.github.io/esri-leaflet/)
-* [reactjs](https://reactjs.org/)
+* HTML
+* CSS
+* JS
+* JQuery
