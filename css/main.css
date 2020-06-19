@@ -1,18 +1,99 @@
-h1 {
-  font-family: "Rubik", sans-serif;
-  font-size: 48px;
-  color: orangered;
-  max-width: 1000px;
+@import "compass/css3";
+
+/* Body Styles */
+body {
+  margin: 0 auto;
+  background-color: #0a0000;
 }
 
-main {
-  max-width: 700px;
-  margin: 0px auto;
-  padding-top: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+video { 
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
 }
 
-a {
-  color: black;
+body h1 {
+  font-family: "Bungee", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align:center;
+	margin:0 auto;
+  margin-top: 9rem;
+  margin-bottom: 1rem;
+}
+
+body h2 {
+  font-family: "Sumana", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #FFFFFF;
+  margin-top: 1px;
+  line-height: 1.12;
+  max-width: 35rem;
+  text-align:center;
+	margin:0 auto;
+}
+
+/* Header */
+header {
+  background: rgba(0,0,0,.05);
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  display: block;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: top .25s;
+  z-index: 9999;
+  padding: 0px 0px;
+  font-family: "Sumana", sans-serif;
+}
+
+header .logo {
+  float:left;
+}
+
+header a {
+  text-decoration:none;
+  font-weight:400;
+  font-size: 14px;
+  color: #FFFFFF;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0px 20px;
+}
+
+/*navigation bar*/
+header .navigation {
+  float: right;
+}
+
+header .navigation ul{
+  list-style-type: none;
+  margin: 0px 20px;
+}
+
+header .navigation li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header .navigation a {
+  position: relative;
+  margin-top: 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 200;
+  color: #FFFFFF;
 }
